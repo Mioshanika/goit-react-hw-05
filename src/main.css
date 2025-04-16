@@ -1,0 +1,32 @@
+@font-face {
+  font-family: 'Nunito';
+  src: url('./font/nunito.ttf');
+}
+:root {
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --txt-color: #413008;
+  --bg-color: #bacbad;
+  --card-color: #d3fdb37b;
+  --shadow-color: darkolivegreen;
+  --btn-bg: #e4f5a9a2;
+  --btn-focus: #e5f5a9;
+  --inpt-color: whitesmoke;
+  --err-color: #037b7b;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg-color);
+  color: var(--txt-color);
+}
+ul {
+  list-style-type: none;
+}

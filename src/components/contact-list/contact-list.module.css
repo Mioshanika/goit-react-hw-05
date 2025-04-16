@@ -1,0 +1,14 @@
+.contact_list {
+  margin: 0;
+  padding: 0 4px 8px 4px;
+  max-height: 300px;
+  grid-area: cl;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 300px);
+  gap: 12px;
+  justify-items: center;
+  justify-content: center;
+  overflow: auto;
+  scrollbar-color: var(--shadow-color) var(--bg-color);
+  scroll-behavior: smooth;
+}
