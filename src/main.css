@@ -12,14 +12,15 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  --txt-color: #413008;
-  --bg-color: #bacbad;
+  --txt-color: #f8ee93;
+  --bg-color: #62490e;
   --card-color: #d3fdb37b;
   --shadow-color: darkolivegreen;
   --btn-bg: #e4f5a9a2;
   --btn-focus: #e5f5a9;
   --inpt-color: whitesmoke;
   --err-color: #037b7b;
+  --link-hover: rgb(229, 143, 38);
 }
 body {
   margin: 0;
@@ -28,5 +29,47 @@ body {
   color: var(--txt-color);
 }
 ul {
+  margin: 0;
+  padding: 0;
   list-style-type: none;
+}
+p {
+  margin: 0;
+  padding: 0;
+}
+h2 {
+  margin: 12px 0 0 0;
+  padding: 0;
+}
+h3 {
+  margin: 20px;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a:hover,
+a:focus {
+  color: var(--link-hover);
+  outline: none;
+}
+.page {
+  margin: 0 auto;
+  padding: 4px 24px 32px;
+  width: 100%;
+  max-width: 1000px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  background-color: var(--bg-color);
+  border: 1px solid var(--txt-color);
+  border-bottom-left-radius: 64px;
+  border-bottom-right-radius: 64px;
+}
+.active::before {
+  content: '🞂 ';
+}
+.active::after {
+  content: ' 🞀';
 }

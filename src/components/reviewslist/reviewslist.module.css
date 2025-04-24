@@ -1,0 +1,27 @@
+.reviews_list {
+  max-height: 454px;
+  overflow: auto;
+  scrollbar-color: var(--txt-color) var(--bg-color);
+  padding: 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+.reviews_list li {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  border: 1px solid var(--txt-color);
+}
+.last_updated {
+  padding: 0 4px;
+  font-size: 12px;
+}
+.review {
+  padding: 0 4px;
+  width: 100%;
+  background-color: var(--txt-color);
+  color: var(--bg-color);
+}

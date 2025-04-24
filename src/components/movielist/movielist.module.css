@@ -1,0 +1,16 @@
+.movie_list {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 250px);
+  column-gap: 8px;
+  row-gap: 4px;
+  justify-items: first baseline;
+  justify-content: center;
+}
+.movie_list li::before {
+  margin: 0;
+  padding: 0 4px 0 0;
+  content: '❀';
+}

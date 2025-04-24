@@ -1,0 +1,28 @@
+.cast_list {
+  padding: 4px;
+  width: 100%;
+  max-height: 454px;
+  overflow: auto;
+  scrollbar-color: var(--txt-color) var(--bg-color);
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 200px);
+  gap: 8px;
+  justify-content: center;
+}
+.cast_list li {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cast_list img {
+  width: 100%;
+  border: 1px solid var(--txt-color);
+}
+.cast_list p {
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid var(--txt-color);
+  border-left: 1px solid var(--txt-color);
+  border-right: 1px solid var(--txt-color);
+}
