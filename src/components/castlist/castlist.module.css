@@ -26,3 +26,6 @@
   border-left: 1px solid var(--txt-color);
   border-right: 1px solid var(--txt-color);
 }
+.no_info {
+  text-align: center;
+}

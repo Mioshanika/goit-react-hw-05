@@ -21,7 +21,7 @@ export default function ReviewsList({ hits }) {
           </li>
         ))}
       </ul>
-      {hits.length === 0 && <p>There is no info yet</p>}
+      {hits.length === 0 && <p className={s.no_info}>There is no info yet</p>}
     </>
   );
 }

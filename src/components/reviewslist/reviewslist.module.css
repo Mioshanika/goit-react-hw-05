@@ -25,3 +25,6 @@
   background-color: var(--txt-color);
   color: var(--bg-color);
 }
+.no_info {
+  text-align: center;
+}

@@ -26,7 +26,7 @@ export default function CastList({ hits }) {
           </li>
         ))}
       </ul>
-      {hits.length === 0 && <p>There are no info yet</p>}
+      {hits.length === 0 && <p className={s.no_info}>There are no info yet</p>}
     </>
   );
 }
