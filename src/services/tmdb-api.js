@@ -3,8 +3,7 @@ import axios from 'axios';
 const axiosConfig = {
   baseURL: 'https://api.themoviedb.org',
   headers: {
-    Authorization:
-      'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIzNzYwMDU4YzlhODJiYmUzOTU2MTM2Yjk1MTY5MmQ2NiIsIm5iZiI6MTc0NDc5OTE5NC45ODgsInN1YiI6IjY3ZmY4NWRhYzFlMGE3MDhjYmFkOGZmOCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.TocaSg9cftzspJH5e1wGj66K4E5Y99m7j9zZDaPhKQ0',
+    Authorization: `Bearer ${import.meta.env.VITE_API_KEY5}`,
     accept: 'application/json',
   },
   params: {
